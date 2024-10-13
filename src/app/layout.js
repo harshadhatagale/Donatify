@@ -1,6 +1,7 @@
 import localFont from "next/font/local";
 import "./globals.css";
-
+import Nav from "@/components/ui/Nav";
+import NextTopLoader from 'nextjs-toploader';
 const geistSans = localFont({
   src: "./fonts/GeistVF.woff",
   variable: "--font-geist-sans",
@@ -20,10 +21,16 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <body
-        className={`${geistSans.variable} ${geistMono.variable} antialiased`}
-      >
-        {children}
+      <body className={`${geistSans.variable} ${geistMono.variable} antialiased`}>
+        <NextTopLoader
+          color="red"
+          height={4}
+          showSpinner={false}
+        />
+        <Nav />
+        <main className="py-16">
+          {children}
+        </main>
       </body>
     </html>
   );
