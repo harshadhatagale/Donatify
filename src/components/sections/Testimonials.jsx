@@ -11,7 +11,7 @@ export default function Testimonials() {
         {/* <!-- Testimonial 1 --> */}
         <div class="bg-white shadow-lg rounded-lg p-6">
           <p class="text-gray-600 italic mb-4">
-            "I was hesitant at first, but after seeing how my contribution helped a family in need, I was moved. This platform truly shows how small acts of kindness can change lives."
+            &quot;I was hesitant at first, but after seeing how my contribution helped a family in need, I was moved. This platform truly shows how small acts of kindness can change lives.&quot;
           </p>
           <div class="flex items-center">
             <img class="w-12 h-12 rounded-full mr-4" src="/avatar7.png" alt="User Image"/>
@@ -25,7 +25,7 @@ export default function Testimonials() {
         {/* <!-- Testimonial 2 --> */}
         <div class="bg-white shadow-lg rounded-lg p-6">
           <p class="text-gray-600 italic mb-4">
-            "Cleaning out my closet and donating old clothes was such a rewarding experience. Knowing they are helping people stay warm is amazing!"
+            &quot;Cleaning out my closet and donating old clothes was such a rewarding experience. Knowing they are helping people stay warm is amazing!&quot;
           </p>
           <div class="flex items-center">
             <img class="w-12 h-12 rounded-full mr-4" src="/avatar2.png" alt="User Image"/>
@@ -39,7 +39,7 @@ export default function Testimonials() {
         {/* <!-- Testimonial 3 --> */}
         <div class="bg-white shadow-lg rounded-lg p-6">
           <p class="text-gray-600 italic mb-4">
-            "I donated some old furniture and electronics through this platform, and knowing they've found a new home brought me so much joy!"
+          &quot;I donated some old furniture and electronics through this platform, and knowing they've found a new home brought me so much joy!&quot;
           </p>
           <div class="flex items-center">
             <img class="w-12 h-12 rounded-full mr-4" src="/avatar5.png" alt="User Image"/>
@@ -53,7 +53,7 @@ export default function Testimonials() {
         {/* <!-- Testimonial 4 --> */}
         <div class="bg-white shadow-lg rounded-lg p-6">
           <p class="text-gray-600 italic mb-4">
-            "I was able to donate some money to support education programs. The platform is trustworthy, and I will continue contributing."
+            &quot;I was able to donate some money to support education programs. The platform is trustworthy, and I will continue contributing."&quot;
           </p>
           <div class="flex items-center">
             <img class="w-12 h-12 rounded-full mr-4" src="/avatar4.png" alt="User Image"/>
@@ -67,7 +67,7 @@ export default function Testimonials() {
         <!-- Testimonial 5 --> */}
         <div class="bg-white shadow-lg rounded-lg p-6">
           <p class="text-gray-600 italic mb-4">
-            "After losing my job, I received donated clothes and items. I am forever grateful for the kindness, and I hope to give back in the future."
+            `&quot;After losing my job, I received donated clothes and items. I am forever grateful for the kindness, and I hope to give back in the future.`&quot;
           </p>
           <div class="flex items-center">
             <img class="w-12 h-12 rounded-full mr-4" src="/avatar6.png" alt="User Image"/>
