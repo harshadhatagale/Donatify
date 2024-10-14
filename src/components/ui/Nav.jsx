@@ -23,7 +23,7 @@ export default function Nav() {
     setNavOpen(false)
   }
   return (
-    <div className={`${isNavOpen ? "active-nav" : ""} lg:px-5 px-4 shadow-md fixed top-0 bg-purple-700 h-16 w-full flex justify-between items-center`}>
+    <div className={`${isNavOpen ? "active-nav" : ""} select-none lg:px-5 px-4 shadow-md fixed top-0 bg-purple-700 h-16 w-full flex justify-between items-center`}>
       <div className='flex h-16 justify-between items-center lg:w-auto w-full '>
         <Link href={"/"} onClick={closeNav} className='flex space-x-2 justify-center items-center text-2xl text-white font-bold'>
           <FcLike /> <span className={`${poppins.className}`}>Donatify</span>
@@ -34,7 +34,7 @@ export default function Nav() {
         <ul className='lg:flex lg:h-16 justify-center items-center space-x-3 text-md font-semibold text-white'>
           <li onClick={closeNav}><Link href={"/"}>Home</Link></li>
           <li onClick={closeNav}><Link href={"/about"}>About us</Link></li>
-          <li onClick={closeNav}><Link href={"/"}>Donations</Link></li>
+          <li onClick={closeNav}><Link href={"/donations"}>Donations</Link></li>
           <li onClick={closeNav}><Link href={"/how_it_works"}>How it works</Link></li>
           <li onClick={closeNav}><Link href={"/contact"}>Contact Us</Link></li>
         </ul>
