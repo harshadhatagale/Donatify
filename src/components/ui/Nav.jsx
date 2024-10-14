@@ -20,9 +20,9 @@ export default function Nav() {
     setNavOpen(!isNavOpen)
   }
   return (
-    <div className={`${isNavOpen ? "active-nav" : ""} lg:px-5 px-2 shadow-md fixed top-0 bg-purple-700 h-16 w-full flex justify-between items-center`}>
+    <div className={`${isNavOpen ? "active-nav" : ""} lg:px-5 px-4 shadow-md fixed top-0 bg-purple-700 h-16 w-full flex justify-between items-center`}>
       <div className='flex h-16 justify-between items-center lg:w-auto w-full '>
-        <Link href={"/"} className='flex space-x-2 justify-center items-center text-2xl text-white font-bold'>
+        <Link href={"/"} onClick={togggleNav} className='flex space-x-2 justify-center items-center text-2xl text-white font-bold'>
           <FcLike /> <span className={`${poppins.className}`}>Donatify</span>
         </Link>
         <RiMenu3Fill onClick={togggleNav} size={24} color='white' className='lg:hidden flex justify-center items-center' />
