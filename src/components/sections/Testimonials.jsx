@@ -39,7 +39,7 @@ export default function Testimonials() {
         {/* <!-- Testimonial 3 --> */}
         <div class="bg-white shadow-lg rounded-lg p-6">
           <p class="text-gray-600 italic mb-4">
-          &quot;I donated some old furniture and electronics through this platform, and knowing they've found a new home brought me so much joy!&quot;
+          &quot;I donated some old furniture and electronics through this platform, and knowing they&apos;ve found a new home brought me so much joy!&quot;
           </p>
           <div class="flex items-center">
             <img class="w-12 h-12 rounded-full mr-4" src="/avatar5.png" alt="User Image"/>
