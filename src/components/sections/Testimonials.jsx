@@ -53,7 +53,7 @@ export default function Testimonials() {
         {/* <!-- Testimonial 4 --> */}
         <div class="bg-white shadow-lg rounded-lg p-6">
           <p class="text-gray-600 italic mb-4">
-            &quot;I was able to donate some money to support education programs. The platform is trustworthy, and I will continue contributing."&quot;
+            &quot;I was able to donate some money to support education programs. The platform is trustworthy, and I will continue contributing.&quot;
           </p>
           <div class="flex items-center">
             <img class="w-12 h-12 rounded-full mr-4" src="/avatar4.png" alt="User Image"/>
@@ -67,7 +67,7 @@ export default function Testimonials() {
         <!-- Testimonial 5 --> */}
         <div class="bg-white shadow-lg rounded-lg p-6">
           <p class="text-gray-600 italic mb-4">
-            `&quot;After losing my job, I received donated clothes and items. I am forever grateful for the kindness, and I hope to give back in the future.`&quot;
+            &quot;After losing my job, I received donated clothes and items. I am forever grateful for the kindness, and I hope to give back in the future.&quot;
           </p>
           <div class="flex items-center">
             <img class="w-12 h-12 rounded-full mr-4" src="/avatar6.png" alt="User Image"/>
