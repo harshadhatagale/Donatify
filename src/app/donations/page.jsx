@@ -8,7 +8,7 @@ const DonationsList = () => {
   const [donations, setDonations] = useState([]); // Store the donation data
   const [searchTerm, setSearchTerm] = useState("");
   const [filteredDonations, setFilteredDonations] = useState([]);
-
+  const [category, setCategory] = useState('');
   // Fetch the donation data from the JSON file
   useEffect(() => {
     const fetchDonations = async () => {
@@ -24,7 +24,18 @@ const DonationsList = () => {
 
     fetchDonations();
   }, []);
+  const handleCategoryChange = (e) => {
+    const selectedCategory = e.target.value;
+    setCategory(selectedCategory);
 
+    // Filter donations based on selected category
+    if (selectedCategory === '') {
+      setFilteredDonations(donations); // If no category selected, show all donations
+    } else {
+      const filtered = donations.filter((donation) => donation.type === selectedCategory);
+      setFilteredDonations(filtered);
+    }
+  };
   // Handle search input
   const handleSearch = (event) => {
     const searchValue = event.target.value.toLowerCase();
@@ -50,7 +61,20 @@ const DonationsList = () => {
           onChange={handleSearch}
         />
       </div>
-
+      <div className="mb-4">
+        <label className="mr-2">Filter by Category: </label>
+        <select
+          value={category}
+          onChange={handleCategoryChange}
+          className="border border-gray-300 p-2 rounded-md"
+        >
+          <option value="">All Categories</option>
+          <option value="Money">Money</option>
+          <option value="Clothes">Clothes</option>
+          <option value="Items">Items</option>
+          {/* Add more categories if needed */}
+        </select>
+      </div>
       {/* Donations List */}
       <div className="grid gap-6 md:grid-cols-2 lg:grid-cols-3">
         {filteredDonations.length > 0 ? (
