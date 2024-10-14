@@ -348,6 +348,356 @@
     "title": "Sleepwear for Homeless Shelters",
     "description": "Donate sleepwear to homeless shelters for men, women, and children.",
     "amount": "100 sets"
+  },
+  {
+    "id": 51,
+    "type": "Money",
+    "title": "Solar Energy Fund",
+    "description": "Help communities gain access to solar energy solutions.",
+    "amount": "$4000"
+  },
+  {
+    "id": 52,
+    "type": "Clothes",
+    "title": "Baby Clothing Donation",
+    "description": "Donate baby clothes to new mothers in need.",
+    "amount": "150 sets"
+  },
+  {
+    "id": 53,
+    "type": "Items",
+    "title": "Musical Instruments for Schools",
+    "description": "Donate used musical instruments to support school music programs.",
+    "amount": "30 instruments"
+  },
+  {
+    "id": 54,
+    "type": "Money",
+    "title": "Vaccination Drive Fund",
+    "description": "Support vaccination efforts in remote areas.",
+    "amount": "$3000"
+  },
+  {
+    "id": 55,
+    "type": "Clothes",
+    "title": "Sportswear for Underprivileged Youth",
+    "description": "Donate sportswear to encourage participation in sports.",
+    "amount": "80 sets"
+  },
+  {
+    "id": 56,
+    "type": "Items",
+    "title": "Used Appliances Donation",
+    "description": "Donate old but functional appliances to families in need.",
+    "amount": "20 appliances"
+  },
+  {
+    "id": 57,
+    "type": "Money",
+    "title": "Housing for Homeless Fund",
+    "description": "Support the construction of housing for homeless individuals.",
+    "amount": "$8000"
+  },
+  {
+    "id": 58,
+    "type": "Clothes",
+    "title": "Raincoats for Refugees",
+    "description": "Donate raincoats to refugees living in camps.",
+    "amount": "200 raincoats"
+  },
+  {
+    "id": 59,
+    "type": "Items",
+    "title": "Camping Gear for Homeless",
+    "description": "Donate camping gear to support homeless individuals.",
+    "amount": "50 items"
+  },
+  {
+    "id": 60,
+    "type": "Money",
+    "title": "Clean Air Initiative Fund",
+    "description": "Help reduce air pollution by supporting clean air initiatives.",
+    "amount": "$1500"
+  },
+  {
+    "id": 61,
+    "type": "Clothes",
+    "title": "Summer Sandals for Children",
+    "description": "Donate sandals to children in hot climates.",
+    "amount": "120 pairs"
+  },
+  {
+    "id": 62,
+    "type": "Items",
+    "title": "Kitchen Supplies Donation",
+    "description": "Donate kitchen supplies to families rebuilding after disasters.",
+    "amount": "40 sets"
+  },
+  {
+    "id": 63,
+    "type": "Money",
+    "title": "Education for Girls Fund",
+    "description": "Support girls' education by funding school fees and supplies.",
+    "amount": "$5000"
+  },
+  {
+    "id": 64,
+    "type": "Clothes",
+    "title": "Jackets for Refugee Camps",
+    "description": "Donate jackets to help refugees stay warm.",
+    "amount": "100 jackets"
+  },
+  {
+    "id": 65,
+    "type": "Items",
+    "title": "Wheelchairs for Disabled Individuals",
+    "description": "Donate wheelchairs to people with disabilities in underserved communities.",
+    "amount": "15 wheelchairs"
+  },
+  {
+    "id": 66,
+    "type": "Money",
+    "title": "Legal Aid Fund",
+    "description": "Support legal aid for low-income individuals facing legal challenges.",
+    "amount": "$3000"
+  },
+  {
+    "id": 67,
+    "type": "Clothes",
+    "title": "Boots for Winter",
+    "description": "Donate boots to families in need during the cold months.",
+    "amount": "90 pairs"
+  },
+  {
+    "id": 68,
+    "type": "Items",
+    "title": "Office Supplies for Nonprofits",
+    "description": "Donate office supplies to small nonprofit organizations.",
+    "amount": "100 items"
+  },
+  {
+    "id": 69,
+    "type": "Money",
+    "title": "Healthcare for Children Fund",
+    "description": "Support healthcare services for children in impoverished areas.",
+    "amount": "$7000"
+  },
+  {
+    "id": 70,
+    "type": "Clothes",
+    "title": "Sports Gear for Teens",
+    "description": "Donate sports gear to teens participating in after-school activities.",
+    "amount": "50 items"
+  },
+  {
+    "id": 71,
+    "type": "Items",
+    "title": "Books for Children’s Shelters",
+    "description": "Donate books to children living in shelters.",
+    "amount": "250 books"
+  },
+  {
+    "id": 72,
+    "type": "Money",
+    "title": "Mental Health Support Fund",
+    "description": "Support mental health programs for at-risk youth.",
+    "amount": "$6000"
+  },
+  {
+    "id": 73,
+    "type": "Clothes",
+    "title": "Shoes for the Needy",
+    "description": "Donate shoes to homeless shelters and low-income families.",
+    "amount": "200 pairs"
+  },
+  {
+    "id": 74,
+    "type": "Items",
+    "title": "Old Cellphones for Emergencies",
+    "description": "Donate old cellphones to provide emergency communication for people in need.",
+    "amount": "100 phones"
+  },
+  {
+    "id": 75,
+    "type": "Money",
+    "title": "Youth Education Fund",
+    "description": "Support the education of young people in low-income communities.",
+    "amount": "$4000"
+  },
+  {
+    "id": 76,
+    "type": "Clothes",
+    "title": "Blanket Drive for Winter",
+    "description": "Donate blankets to help keep families warm during winter.",
+    "amount": "150 blankets"
+  },
+  {
+    "id": 77,
+    "type": "Items",
+    "title": "Eyeglasses for Vision Support",
+    "description": "Donate eyeglasses to help people with vision impairments.",
+    "amount": "60 pairs"
+  },
+  {
+    "id": 78,
+    "type": "Money",
+    "title": "Public Health Awareness Fund",
+    "description": "Support health awareness campaigns in rural areas.",
+    "amount": "$3500"
+  },
+  {
+    "id": 79,
+    "type": "Clothes",
+    "title": "Gloves for Homeless Shelters",
+    "description": "Donate gloves to shelters to keep hands warm during winter.",
+    "amount": "100 pairs"
+  },
+  {
+    "id": 80,
+    "type": "Items",
+    "title": "Laptops for Low-Income Students",
+    "description": "Donate laptops to support students' education.",
+    "amount": "20 laptops"
+  },
+  {
+    "id": 81,
+    "type": "Money",
+    "title": "Elderly Care Assistance Fund",
+    "description": "Support elderly care facilities with your donations.",
+    "amount": "$4500"
+  },
+  {
+    "id": 82,
+    "type": "Clothes",
+    "title": "Warm Clothing for Seniors",
+    "description": "Donate warm clothing to elderly individuals in need.",
+    "amount": "50 sets"
+  },
+  {
+    "id": 83,
+    "type": "Items",
+    "title": "Sports Equipment for After-School Programs",
+    "description": "Donate sports equipment to support after-school programs.",
+    "amount": "40 items"
+  },
+  {
+    "id": 84,
+    "type": "Money",
+    "title": "Water Purification Systems Fund",
+    "description": "Help provide clean drinking water by funding purification systems.",
+    "amount": "$2000"
+  },
+  {
+    "id": 85,
+    "type": "Clothes",
+    "title": "Shoes for School Children",
+    "description": "Donate shoes to support children's education in rural areas.",
+    "amount": "150 pairs"
+  },
+  {
+    "id": 86,
+    "type": "Items",
+    "title": "Books for Rural Schools",
+    "description": "Donate books to support education in rural schools.",
+    "amount": "500 books"
+  },
+  {
+    "id": 87,
+    "type": "Money",
+    "title": "Orphanage Support Fund",
+    "description": "Donate to provide essential supplies for orphanages.",
+    "amount": "$3000"
+  },
+  {
+    "id": 88,
+    "type": "Clothes",
+    "title": "Hoodies for Teens in Need",
+    "description": "Donate hoodies to teens in low-income families.",
+    "amount": "80 hoodies"
+  },
+  {
+    "id": 89,
+    "type": "Items",
+    "title": "Furniture for Disaster Victims",
+    "description": "Donate furniture to families recovering from natural disasters.",
+    "amount": "15 items"
+  },
+  {
+    "id": 90,
+    "type": "Money",
+    "title": "Women's Empowerment Fund",
+    "description": "Support programs focused on women's empowerment and entrepreneurship.",
+    "amount": "$5000"
+  },
+  {
+    "id": 91,
+    "type": "Clothes",
+    "title": "Winter Boots for Refugee Camps",
+    "description": "Donate boots to refugees in cold-weather camps.",
+    "amount": "60 pairs"
+  },
+  {
+    "id": 92,
+    "type": "Items",
+    "title": "School Supplies for Teachers",
+    "description": "Donate school supplies to support teachers in low-income areas.",
+    "amount": "200 sets"
+  },
+  {
+    "id": 93,
+    "type": "Money",
+    "title": "Animal Shelter Fund",
+    "description": "Donate to support animal shelters and rescue organizations.",
+    "amount": "$2500"
+  },
+  {
+    "id": 94,
+    "type": "Clothes",
+    "title": "Socks for the Homeless",
+    "description": "Donate socks to homeless shelters for men, women, and children.",
+    "amount": "200 pairs"
+  },
+  {
+    "id": 95,
+    "type": "Items",
+    "title": "Bicycles for Kids",
+    "description": "Donate bicycles to children in underprivileged areas.",
+    "amount": "30 bikes"
+  },
+  {
+    "id": 96,
+    "type": "Money",
+    "title": "Disaster Relief Fund",
+    "description": "Help provide disaster relief efforts for victims of hurricanes, earthquakes, and other natural disasters.",
+    "amount": "$7000"
+  },
+  {
+    "id": 97,
+    "type": "Clothes",
+    "title": "Backpacks for Students",
+    "description": "Donate backpacks to support students returning to school.",
+    "amount": "200 backpacks"
+  },
+  {
+    "id": 98,
+    "type": "Items",
+    "title": "Art Supplies for School Programs",
+    "description": "Donate art supplies to support school art programs.",
+    "amount": "100 sets"
+  },
+  {
+    "id": 99,
+    "type": "Money",
+    "title": "Clean Water Fund",
+    "description": "Support access to clean drinking water in developing regions.",
+    "amount": "$6000"
+  },
+  {
+    "id": 100,
+    "type": "Clothes",
+    "title": "T-Shirts for Youth Programs",
+    "description": "Donate t-shirts to support local youth programs.",
+    "amount": "100 shirts"
   }
  
 ]
