@@ -30,9 +30,9 @@ export default function Nav() {
       <div className={`${roboto.className} ${isNavOpen ? "active-links" : ""} lg:block hidden  mx-5`}>
         <ul className='lg:flex lg:h-16 justify-center items-center space-x-3 text-md font-semibold text-white'>
           <li onClick={togggleNav}><Link href={"/"}>Home</Link></li>
-          <li onClick={togggleNav}><Link href={"/"}>About us</Link></li>
+          <li onClick={togggleNav}><Link href={"/about"}>About us</Link></li>
           <li onClick={togggleNav}><Link href={"/"}>Donations</Link></li>
-          <li onClick={togggleNav}><Link href={"/"}>How it works</Link></li>
+          <li onClick={togggleNav}><Link href={"/how_it_works"}>How it works</Link></li>
           <li onClick={togggleNav}><Link href={"/contact"}>Contact Us</Link></li>
         </ul>
       </div>
