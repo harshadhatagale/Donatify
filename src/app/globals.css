@@ -1,3 +1,23 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+.active-nav {
+    height: 100vh;
+    flex-direction: column;
+    transition: all ease 0.5s;
+}
+.active-links {
+    display: block;
+    height: 80vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 1em;
+}
+.active-links ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 2em;
+}
