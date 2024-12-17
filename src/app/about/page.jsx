@@ -59,7 +59,7 @@ const AboutUs = () => {
               <h4 className="text-xl font-semibold">Harshad Hatagale</h4>
               <p className="text-gray-500">CEO & Founder</p>
               <p className="text-gray-600 mt-4">
-                Passionate about helping others, John founded this platform to make donating simple and accessible for everyone.
+                Passionate about helping others, Harshad founded this platform to make donating simple and accessible for everyone.
               </p>
             </div>
 
