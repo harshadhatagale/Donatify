@@ -56,7 +56,7 @@ const AboutUs = () => {
                 src="/avatar1.png"
                 alt="Team Member 1"
               />
-              <h4 className="text-xl font-semibold">John Doe</h4>
+              <h4 className="text-xl font-semibold">Harshad Hatagale</h4>
               <p className="text-gray-500">CEO & Founder</p>
               <p className="text-gray-600 mt-4">
                 Passionate about helping others, John founded this platform to make donating simple and accessible for everyone.
