@@ -53,7 +53,7 @@ const AboutUs = () => {
             <div className="bg-white p-6 rounded-lg shadow-lg text-center">
               <img
                 className="w-24 h-24 mx-auto mb-4 rounded-full"
-                src="/avatar1.png"
+                src="/avatar3.png"
                 alt="Team Member 1"
               />
               <h4 className="text-xl font-semibold">Harshad Hatagale</h4>
@@ -67,7 +67,7 @@ const AboutUs = () => {
             <div className="bg-white p-6 rounded-lg shadow-lg text-center">
               <img
                 className="w-24 h-24 mx-auto mb-4 rounded-full"
-                src="/avatar3.png"
+                src="/avatar1.png"
                 alt="Team Member 2"
               />
               <h4 className="text-xl font-semibold">Jane Smith</h4>
